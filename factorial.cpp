@@ -6,6 +6,10 @@ int main(int argc, char const *argv[])
     int n;
 	cin>>n;
 	int i=1;
+	if(n==0)
+	cout<<"1"<<endl;
+	else
+	{
 	long long int fact=1;
 	while(i<=n)
 	{
@@ -13,5 +17,6 @@ int main(int argc, char const *argv[])
 		i++;
 	}
 	cout<<fact<<endl;
-	return 0;
+	}
+		return 0;
 }
