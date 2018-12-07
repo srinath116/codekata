@@ -1,11 +1,10 @@
-#include<iostream>
-#include <algorithm>
-#include <string>
+#include <bits/stdc++.h> 
 using namespace std;
 int main(int argc, char const *argv[])
 {
 	string s;
 	cin>>s;
-	cout<<reverse(s.begin(),s.end())<<endl;
+	reverse(s.begin(),s.end());
+	cout<<s<<endl;
 	return 0;
 }
